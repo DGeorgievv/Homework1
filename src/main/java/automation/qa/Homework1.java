@@ -10,9 +10,10 @@ public class Homework1 {
         String firstname = scanner.next();
         String lastname = scanner.next();
 
-        System.out.println("Your first and lasnt name are" + " " + firstname + " " + lastname);
+        System.out.println("Please enter your age");
+        int userAge = scanner.nextInt();
 
-        System.out.println("What is your hobby");
+        System.out.println("What is your hobby?");
         String hobby = scanner.next();
 
         System.out.println("Your favorite hobby is" + " " + hobby +" and it's great" + " " + firstname + " " + lastname);
